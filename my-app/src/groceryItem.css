@@ -1,0 +1,8 @@
+.item-div{
+    margin: 10px;
+    background-color: lightsteelblue;
+    width: 12%;
+    height: 30px;
+    position: sticky;
+    left: 5%;
+}
