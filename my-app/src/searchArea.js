@@ -7,7 +7,6 @@ const SearchArea = () => {
         <div id="search-div">
         <input  id="search-input" type="text" placeholder="Search...">
         </input>
-        
         </div>
     )
 

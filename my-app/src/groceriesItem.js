@@ -11,6 +11,7 @@ const GroceriesItem = (props) => {
             {
                 props.name
             }
+            <button  onClick={()=>props.onClick(props.name)}>Add</button>
         </div>
     )
     

@@ -1,4 +1,5 @@
 import React from 'react';
+import './basketItem.css'
 
 
 
@@ -6,10 +7,11 @@ import React from 'react';
 function BasketItem (props) {
     return (
 
-        <div className="basket-item" onClick={()=>props.onClick(props.name)}>
+        <div className="basket-item">
             {
-                props.name
+                props.name + ' :   ' + props.count 
             }
+            <button onClick={()=>props.onClick(props.name)}>Delete</button>
         </div>
     )
 }

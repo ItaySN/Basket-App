@@ -1,11 +1,11 @@
 #search-div {
-    position: static;
-    width: 100%;
-    text-align: center;
-    left: 0;
-    height: 70px;
+    position: flex;
     background-color: lightslategrey;
-   
+    text-align: center;
+    height: 80px;
     
-    
+}
+
+#search-input{
+    text-align: center;
 }

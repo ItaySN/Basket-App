@@ -4,6 +4,11 @@
     width: 100px;
 }
 #header-div{
-    text-align: center;    
+    margin: 0;
+    text-align: center;   
+    background-color: blanchedalmond;
+}
+h1{
+    margin-bottom: 0;
 }
 
