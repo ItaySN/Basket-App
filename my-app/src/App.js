@@ -18,22 +18,13 @@ function App() {
 
   function addItemtoBasket(itemName) {
     let tempBasket = Basket.slice();
-    let ifExist = false;
-    tempBasket.forEach(obj => {
-      if (obj.name === itemName) {
-        obj.count += 1;
-        ifExist = true;
-      }
-    })
-    if(ifExist) {
-
-      setBasket(tempBasket);
-
-    }else {
-      tempBasket.push({ name: itemName, count: 1, buy: false });
-      setBasket(tempBasket);
-    }
+    debugger;
+    tempBasket.some((obj,i) => obj.name === itemName) ? 
+    tempBasket.find(obj => obj.name === itemName).count += 1 : 
+    tempBasket.push({name : itemName , count : 1});
+    setBasket(tempBasket);
   }
+    
 
   function deleteItemFromBasket(itemName) {
     let tempBasket = Basket.slice();

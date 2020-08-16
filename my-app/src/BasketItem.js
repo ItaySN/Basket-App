@@ -12,9 +12,6 @@ const switchDecoration = (event) => {
     }
 }
 
-
-
-
 function BasketItem (props) {
 
     return (

@@ -13,7 +13,7 @@ const GroceriesItem = (props) => {
             {
                 props.name
             }
-            <button  onClick={()=>props.onClick(props.name)}><MdAddShoppingCart /></button>
+            <button onClick = {props.onClick}><MdAddShoppingCart /></button>
         </div>
     )
     
