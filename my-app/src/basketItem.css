@@ -1,7 +1,18 @@
 .basket-item{
-    margin: 10px;
+    
     background-color: lightsteelblue;
-    height: 30px;
+    height: 40px;
     display: flex;
     justify-content: space-between;
+    margin: 10px;
+    
 }
+.bougth-item {
+    text-decoration: line-through;
+}
+
+span{
+    width: 85%;
+}
+
+

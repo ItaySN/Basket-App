@@ -1,8 +1,7 @@
 .item-div{
     margin: 10px;
     background-color: lightsteelblue;
-    height: 30px;
+    height: 40px;
     display: flex;
     justify-content: space-between;
-
 }

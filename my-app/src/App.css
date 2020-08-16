@@ -11,8 +11,8 @@
   display: flex;
   justify-content: space-between;
   padding-top: 100px;
-  padding-left: 50px;
-  padding-right: 50px;
+  padding-left: 170px;
+  padding-right: 170px;
 }
 
 @media (prefers-reduced-motion: no-preference) {

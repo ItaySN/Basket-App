@@ -1,5 +1,7 @@
 import React from 'react';
-import './groceryItem.css'
+import './groceryItem.css';
+import { MdAddShoppingCart } from 'react-icons/md';
+
 
 
 
@@ -11,7 +13,7 @@ const GroceriesItem = (props) => {
             {
                 props.name
             }
-            <button  onClick={()=>props.onClick(props.name)}>Add</button>
+            <button  onClick={()=>props.onClick(props.name)}><MdAddShoppingCart /></button>
         </div>
     )
     
